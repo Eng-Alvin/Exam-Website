@@ -1,0 +1,59 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e4]:
+      - link "Estate.Noir" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e8]: Estate.Noir
+      - generic [ref=e9]:
+        - link "Estates" [ref=e10] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e11]: News
+        - generic [ref=e12]: About
+      - generic [ref=e14]:
+        - link "Sign In" [ref=e15] [cursor=pointer]:
+          - /url: /login
+        - link "Join" [ref=e16] [cursor=pointer]:
+          - /url: /register
+  - generic [ref=e17]:
+    - generic [ref=e18]:
+      - img "Featured estate" [ref=e19]
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Feature
+          - generic [ref=e26]: Estate
+        - heading "The Obsidian Heights" [level=1] [ref=e27]
+        - paragraph [ref=e28]: Listing Price
+        - paragraph [ref=e29]: $24,500,000
+        - button "Explore Estates" [ref=e31] [cursor=pointer]:
+          - text: Explore Estates
+          - img [ref=e32]
+      - generic [ref=e36]: Curated collection
+    - generic [ref=e39]:
+      - paragraph [ref=e41]: Refine Your Search
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - paragraph [ref=e44]: Location
+          - textbox "City or region" [ref=e45]
+        - generic [ref=e46]:
+          - paragraph [ref=e47]: Price Range (USD)
+          - generic [ref=e48]:
+            - spinbutton [ref=e49]
+            - generic [ref=e50]: —
+            - spinbutton [ref=e51]
+        - generic [ref=e52]:
+          - paragraph [ref=e53]: Property Type
+          - combobox [ref=e54] [cursor=pointer]:
+            - option "All Types" [selected]
+            - option "Penthouse"
+            - option "Villa"
+            - option "Residence"
+            - option "Studio"
+      - button "Find Market Estate" [ref=e56] [cursor=pointer]
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - paragraph [ref=e62]: Portfolio
+          - heading "Curated Listings" [level=2] [ref=e63]
+        - paragraph [ref=e65]: A select collection of the world's most distinguished residential estates, curated for the discerning.
+      - status "Loading" [ref=e67]

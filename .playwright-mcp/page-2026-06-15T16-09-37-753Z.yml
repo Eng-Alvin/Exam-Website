@@ -1,0 +1,63 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e4]:
+      - link "PropSpace" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e8]: PropSpace
+      - link "Properties" [ref=e10] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e12]:
+        - link "Sign In" [ref=e13] [cursor=pointer]:
+          - /url: /login
+        - link "Join" [ref=e14] [cursor=pointer]:
+          - /url: /register
+  - generic [ref=e15]:
+    - generic [ref=e16]:
+      - img "Featured property" [ref=e17]
+      - generic [ref=e21]:
+        - paragraph [ref=e22]: Premium Real Estate
+        - heading "Find the Space You Deserve" [level=1] [ref=e23]
+        - paragraph [ref=e24]: Discover handpicked properties for rent and sale — from city apartments to family homes. Your next chapter starts here.
+        - generic [ref=e25]:
+          - button "Browse Properties" [ref=e26] [cursor=pointer]:
+            - text: Browse Properties
+            - img [ref=e27]
+          - link "List a Property" [ref=e29] [cursor=pointer]:
+            - /url: /properties/new
+      - generic [ref=e30]:
+        - generic [ref=e33]: Properties available
+        - generic [ref=e34]:
+          - generic [ref=e35]: Scroll to explore
+          - img [ref=e36]
+    - generic [ref=e40]:
+      - paragraph [ref=e43]: Filter Properties
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: Location
+            - textbox "City or region" [ref=e48]
+          - generic [ref=e49]:
+            - generic [ref=e50]: Min Price (FCFA)
+            - spinbutton [ref=e51]
+          - generic [ref=e52]:
+            - generic [ref=e53]: Max Price (FCFA)
+            - spinbutton [ref=e54]
+          - generic [ref=e55]:
+            - generic [ref=e56]: Listing Type
+            - combobox [ref=e57] [cursor=pointer]:
+              - option "All Types" [selected]
+              - option "For Sale"
+              - option "For Rent"
+        - generic [ref=e58]:
+          - button "Search Properties" [ref=e59] [cursor=pointer]
+          - generic [ref=e60]:
+            - generic [ref=e61]: 500+
+            - generic [ref=e62]: Properties
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e65]:
+          - paragraph [ref=e68]: Available Now
+          - heading "Properties" [level=2] [ref=e69]
+        - paragraph [ref=e71]: Browse properties for rent and sale — apartments, houses, villas, and more across all regions.
+      - status "Loading" [ref=e73]

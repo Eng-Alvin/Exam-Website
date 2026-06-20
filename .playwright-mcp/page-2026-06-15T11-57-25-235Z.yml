@@ -1,0 +1,102 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e4]:
+      - link "Estate.Noir" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e8]: Estate.Noir
+      - generic [ref=e9]:
+        - link "Estates" [ref=e10] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e11]: News
+        - generic [ref=e12]: About
+      - generic [ref=e14]:
+        - link "Sign In" [ref=e15] [cursor=pointer]:
+          - /url: /login
+        - link "Join" [ref=e16] [cursor=pointer]:
+          - /url: /register
+  - generic [ref=e17]:
+    - generic [ref=e18]:
+      - img "Featured estate" [ref=e19]
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - generic [ref=e26]: Feature
+          - generic [ref=e27]: Estate
+        - heading "The Obsidian Heights" [level=1] [ref=e28]
+        - paragraph [ref=e29]: Listing Price
+        - paragraph [ref=e30]: $24,500,000
+        - button "Explore Estates" [ref=e32] [cursor=pointer]:
+          - text: Explore Estates
+          - img [ref=e33]
+      - generic [ref=e37]: 3 estates curated
+    - generic [ref=e40]:
+      - paragraph [ref=e42]: Refine Your Search
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - paragraph [ref=e45]: Location
+          - textbox "City or region" [ref=e46]
+        - generic [ref=e47]:
+          - paragraph [ref=e48]: Price Range (USD)
+          - generic [ref=e49]:
+            - spinbutton [ref=e50]
+            - generic [ref=e51]: —
+            - spinbutton [ref=e52]
+        - generic [ref=e53]:
+          - paragraph [ref=e54]: Property Type
+          - combobox [ref=e55] [cursor=pointer]:
+            - option "All Types" [selected]
+            - option "Penthouse"
+            - option "Villa"
+            - option "Residence"
+            - option "Studio"
+      - button "Find Market Estate" [ref=e57] [cursor=pointer]
+      - generic [ref=e58]:
+        - generic [ref=e59]: 3,000+
+        - generic [ref=e60]: Estates
+    - generic [ref=e61]:
+      - generic [ref=e62]:
+        - generic [ref=e63]:
+          - paragraph [ref=e66]: Portfolio
+          - heading "Curated Listings" [level=2] [ref=e67]
+        - paragraph [ref=e69]: A select collection of the world's most distinguished residential estates, curated for the discerning.
+      - generic [ref=e70]:
+        - link "Villa Azure Villa Villa Azure Amalfi, Italy $18,750,000" [ref=e71] [cursor=pointer]:
+          - /url: /estates/6a2fd52ba7849037a4f2aa4d
+          - generic [ref=e72]:
+            - img "Villa Azure" [ref=e73]
+            - img [ref=e76]
+            - generic [ref=e79]: Villa
+          - generic [ref=e80]:
+            - heading "Villa Azure" [level=3] [ref=e81]
+            - paragraph [ref=e82]: Amalfi, Italy
+            - generic [ref=e83]:
+              - paragraph [ref=e85]: $18,750,000
+              - img [ref=e86]
+        - link "The Glass Pavilion Residence The Glass Pavilion Malibu, California $12,000,000" [ref=e88] [cursor=pointer]:
+          - /url: /estates/6a2fe258a7849037a4f2aa4f
+          - generic [ref=e89]:
+            - img "The Glass Pavilion" [ref=e90]
+            - img [ref=e93]
+            - generic [ref=e96]: Residence
+          - generic [ref=e97]:
+            - heading "The Glass Pavilion" [level=3] [ref=e98]
+            - paragraph [ref=e99]: Malibu, California
+            - generic [ref=e100]:
+              - paragraph [ref=e102]: $12,000,000
+              - img [ref=e103]
+        - link "Zenith Estate Penthouse Zenith Estate Dubai, UAE $45,900,000" [ref=e105] [cursor=pointer]:
+          - /url: /estates/6a2fe258a7849037a4f2aa51
+          - generic [ref=e106]:
+            - img "Zenith Estate" [ref=e107]
+            - img [ref=e110]
+            - generic [ref=e113]: Penthouse
+          - generic [ref=e114]:
+            - heading "Zenith Estate" [level=3] [ref=e115]
+            - paragraph [ref=e116]: Dubai, UAE
+            - generic [ref=e117]:
+              - paragraph [ref=e119]: $45,900,000
+              - img [ref=e120]
+      - link "View More Portfolio" [ref=e125] [cursor=pointer]:
+        - /url: /portfolio
+        - text: View More Portfolio
+        - img [ref=e126]

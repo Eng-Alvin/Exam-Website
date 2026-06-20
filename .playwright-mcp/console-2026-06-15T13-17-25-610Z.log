@@ -1,0 +1,27 @@
+[     615ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=7755015f:14337
+[  108978ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/account:0
+[ 2553294ms] [WARNING] No routes matched location "/estates/new"  @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=9352213b:164
+[ 2553295ms] [WARNING] No routes matched location "/estates/new"  @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=9352213b:164
+[ 2564432ms] [WARNING] No routes matched location "/estates/new"  @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=9352213b:164
+[ 2564433ms] [WARNING] No routes matched location "/estates/new"  @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=9352213b:164
+[ 2570804ms] Error: useAuth must be used within AuthProvider
+    at useAuth (http://localhost:5173/src/context/AuthContext.jsx?t=1781532009745:68:18)
+    at Navbar (http://localhost:5173/src/components/Navbar.jsx?t=1781532009745:9:27)
+    at Object.react_stack_bottom_frame (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=7755015f:12868:12)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=7755015f:4213:19)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=7755015f:5569:16)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=7755015f:6140:20)
+    at runWithFiberInDEV (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=7755015f:851:66)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=7755015f:8429:92)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=7755015f:8325:37)
+    at renderRootSync (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=7755015f:8309:6)
+[ 2570691ms] [WARNING] %s
+
+%s
+ An error occurred in the <Navbar> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=7755015f:5257
+[ 2570796ms] [WARNING] No routes matched location "/estates/new"  @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=9352213b:164
+[ 2570797ms] [WARNING] No routes matched location "/estates/new"  @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=9352213b:164
+[ 3844201ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=7755015f:14337
+[ 3844305ms] [WARNING] No routes matched location "/estates/new"  @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=9352213b:164
+[ 3844306ms] [WARNING] No routes matched location "/estates/new"  @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=9352213b:164

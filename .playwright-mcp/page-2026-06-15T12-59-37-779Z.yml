@@ -1,0 +1,66 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e4]:
+      - link "Estate.Noir" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e8]: Estate.Noir
+      - link "Estates" [ref=e10] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e12]:
+        - link "Sign In" [ref=e13] [cursor=pointer]:
+          - /url: /login
+        - link "Join" [ref=e14] [cursor=pointer]:
+          - /url: /register
+  - generic [ref=e15]:
+    - generic [ref=e16]:
+      - img "Featured estate" [ref=e17]
+      - generic [ref=e21]:
+        - paragraph [ref=e22]: Featured Estate
+        - heading "The Obsidian Heights" [level=1] [ref=e23]
+        - paragraph [ref=e26]: Listing Price
+        - paragraph [ref=e27]: 24 500 000 FCFA
+        - generic [ref=e28]:
+          - button "Explore Estates" [ref=e29] [cursor=pointer]:
+            - text: Explore Estates
+            - img [ref=e30]
+          - link "List Property" [ref=e32] [cursor=pointer]:
+            - /url: /estates/new
+      - generic [ref=e33]:
+        - generic [ref=e36]: Curated collection
+        - generic [ref=e37]:
+          - generic [ref=e38]: Scroll to explore
+          - img [ref=e39]
+    - generic [ref=e43]:
+      - paragraph [ref=e46]: Refine Your Search
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - generic [ref=e49]:
+            - generic [ref=e50]: Location
+            - textbox "City or region" [ref=e51]
+          - generic [ref=e52]:
+            - generic [ref=e53]: Min Price (FCFA)
+            - spinbutton [ref=e54]
+          - generic [ref=e55]:
+            - generic [ref=e56]: Max Price (FCFA)
+            - spinbutton [ref=e57]
+          - generic [ref=e58]:
+            - generic [ref=e59]: Property Type
+            - combobox [ref=e60] [cursor=pointer]:
+              - option "All Types" [selected]
+              - option "Penthouse"
+              - option "Villa"
+              - option "Residence"
+              - option "Studio"
+        - generic [ref=e61]:
+          - button "Find Market Estate" [ref=e62] [cursor=pointer]
+          - generic [ref=e63]:
+            - generic [ref=e64]: 3,000+
+            - generic [ref=e65]: Estates
+    - generic [ref=e66]:
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - paragraph [ref=e71]: Portfolio
+          - heading "Curated Listings" [level=2] [ref=e72]
+        - paragraph [ref=e74]: A select collection of the world's most distinguished residential estates, curated for the discerning.
+      - status "Loading" [ref=e76]
