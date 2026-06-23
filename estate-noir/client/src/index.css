@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@theme {
+  /* Surfaces — remapped from "noir" dark tones to a clean white/grey scale.
+     Names kept so any leftover bg-noir / border-noir-* classes still render light. */
+  --color-noir: #ffffff;
+  --color-noir-100: #f7f7f7;
+  --color-noir-200: #ffffff;
+  --color-noir-300: #f0f0f0;
+  --color-noir-400: #e6e6e6;
+  --color-noir-500: #d6d6d6;
+
+  /* Semantic surfaces & lines (Airbnb-ish) */
+  --color-surface: #ffffff;
+  --color-surface-alt: #f7f7f7;
+  --color-line: #e6e6e6;
+  --color-line-soft: #f0f0f0;
+
+  /* Text ink scale */
+  --color-ink: #222222;
+  --color-ink-soft: #6a6a6a;
+  --color-ink-faint: #9b9b9b;
+
+  /* Accent — refined gold, darkened for legibility on white */
+  --color-gold: #a87f28;
+  --color-gold-light: #8a6820;
+  --color-gold-muted: #c39a3e;
+  --color-gold-dim: #f4ecd9;
+
+  --font-family-display: "Poppins", sans-serif;
+  --font-family-sans: "Poppins", sans-serif;
+
+  --radius-card: 16px;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+html {
+  font-family: var(--font-family-sans);
+  background-color: var(--color-surface);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--color-surface);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Subtle dot grid (kept, toned to light grey) */
+.bg-dot-grid {
+  background-image: radial-gradient(circle, rgba(34, 34, 34, 0.06) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+/* Horizontal rule with a soft gold fade */
+.divider-gold {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(168, 127, 40, 0.35), transparent);
+}
+
+/* Soft card shadow utilities (Airbnb-style lift) */
+.shadow-card {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+.shadow-card-hover {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06), 0 14px 34px rgba(0, 0, 0, 0.12);
+}
+
+/* Thin light scrollbar */
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: #f7f7f7; }
+::-webkit-scrollbar-thumb { background: #d6d6d6; border-radius: 6px; border: 2px solid #f7f7f7; }
+::-webkit-scrollbar-thumb:hover { background: #bdbdbd; }
